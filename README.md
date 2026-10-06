@@ -2,7 +2,7 @@
 
 A pilot study of how class rebalancing interacts with **label-flipping poisoning attacks** on imbalanced health data. It uses the Q-CHAT autism screening dataset from my [MSc dissertation](https://github.com/JerryD19/autism-risk-detection-ml).
 
-**Why it matters:** screening, fraud and intrusion-detection teams routinely rebalance data with SMOTE. This shows when that routine step spreads poisoned records into the training data and roughly doubles the damage of an attack.
+**Business impact:** screening, fraud and intrusion-detection teams routinely rebalance data with SMOTE. This shows when that routine step spreads poisoned records into the training data and roughly doubles the damage of an attack.
 
 **Tools:** Python · scikit-learn · imbalanced-learn · NumPy · pandas · Matplotlib
 
