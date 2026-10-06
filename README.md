@@ -2,6 +2,8 @@
 
 A pilot study of how class rebalancing interacts with **label-flipping poisoning attacks** on imbalanced health data. It uses the Q-CHAT autism screening dataset from my [MSc dissertation](https://github.com/JerryD19/autism-risk-detection-ml).
 
+**Why it matters:** screening, fraud and intrusion-detection teams routinely rebalance data with SMOTE. This shows when that routine step spreads poisoned records into the training data and roughly doubles the damage of an attack.
+
 **Tools:** Python · scikit-learn · imbalanced-learn · NumPy · pandas · Matplotlib
 
 ---
@@ -76,3 +78,7 @@ Oversampling interacts with poisoning in a measurable way, but the effect is **c
 **To run:** `pip install -r requirements.txt`, add the dataset to `data/`, then run the notebook (about 2 minutes).
 
 **Data:** Q-CHAT dataset from Niedźwiecka, A. and Pisula, E. (2022), *International Journal of Environmental Research and Public Health*, 19(5), 3072. https://doi.org/10.3390/ijerph19053072
+
+---
+
+More of my work: [github.com/JerryD19](https://github.com/JerryD19)
